@@ -2,12 +2,6 @@
 
 This repository contains my solutions for assignments in CMU 10414/714 course.
 
-## Homework Structure
-
-- `hw0`: Homework 0 solutions  
-  - `solution1.cpp`  
-  - `README.md` (contains details about the solution)
-
 
 ## Description
 
