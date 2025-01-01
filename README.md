@@ -9,3 +9,8 @@ This repository contains my solutions for assignments in CMU 10414/714 course.
 - Inside each folder, you will find:
   - Solution files (e.g., `.cpp`, `.py`, `.ipynb`)
   - A `README.md` file providing explanations and insights into the solution.
+
+
+## More information on assignments
+
+For more information on assignments, visit: [DLSYS Assignments](https://dlsyscourse.org/assignments/)
