@@ -1,0 +1,16 @@
+graph LR
+    A[MaxViTBackbone] -->|Stem Layer| B[Initial Feature Extraction]
+    B --> C[Transformer Blocks]
+    C --> D[High-Level Features]
+    E[ASPP] -->|Input| F[High-Level Features]
+    F --> G[Multi-Scale Context Features]
+    G --> H[Feature Fusion Layer]
+    I[Low-Level Feature Processing] -->|Input| J[Low-Level Features]
+    J --> K[Low-Level Feature Adjustment]
+    K --> L[Upsample to Match Size]
+    M[Decoder] -->|Input| N[Combine High and Low-Level Features]
+    N --> O[Final Prediction]
+
+    A[MaxViTBackbone] -->|Low-Level Features| I[Low-Level Feature Processing]
+    H --> P[Final Output]
+    O --> P[Final Output]
